@@ -2,4 +2,5 @@
 @import './blocks/global/global.css';
 @import './blocks/global/normalize.css';
 
-@import './blocks/header.css'
+@import './blocks/header.css';
+@import './blocks/promo.css';

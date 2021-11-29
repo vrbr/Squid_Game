@@ -46,18 +46,30 @@ body {
     width: 87.5%;
 }
 .button {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 19px 44px;
+    padding: 10px 25px;
     border: 3px solid #E83D81;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 17px;
     color: #FFFFFF;
     background-color: transparent;
     letter-spacing: -0.04em;
     cursor: pointer;
+}
+.button::after {
+    position: absolute;
+    content: "";
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    filter: blur(0.935593px) drop-shadow(0px 0px 9.35593px rgba(255, 255, 255, 0.4));
+    width: 155px;
+    height: 43px;
+    left: 3px;
+    top: 3px;
+    z-index: -1;
 }
 
 @media (min-width: 768px) {
