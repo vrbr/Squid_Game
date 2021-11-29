@@ -80,6 +80,18 @@ body {
     .container {
         width: 84.37%;
     }
+    .button {
+        padding: 19px 44px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .button::after {
+        filter: blur(1.5px) drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.4));
+        width: 205px;
+        height: 61px;
+        left: 6px;
+        top: 6px;
+    }
 }
 
 @media (min-width: 1440px) {
