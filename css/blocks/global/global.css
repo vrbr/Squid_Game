@@ -104,5 +104,11 @@ body {
     }
     .button {
         padding: 22px 48px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .button::after {
+        width: 228px;
+        height: 69px;
     }
 }

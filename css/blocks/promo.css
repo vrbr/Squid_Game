@@ -77,3 +77,44 @@
         height: 421px;
     }
 }
+
+@media (min-width: 1200px) {
+    .promo__wrapper {
+        padding-top: 189px;
+    }
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg-lap@1x.png");
+        top: 140px;
+    }
+}
+
+@media (min-resolution: 2dppx) and (min-width: 1200px) {
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg-lap@2x.png");
+    }
+}
+
+@media (min-width: 1440px) {
+    .promo__wrapper {
+        padding: 189px 500px 150px 12.15%;
+    }
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg-desk@1x.png");
+        width: 378px;
+        height: 569px;
+        right: 7%;
+        top: 79px;
+    }
+    .promo__title {
+        font-size: 70px;
+        line-height: 83px;
+    }
+    .promo__subtitle {
+        margin-bottom: 60px;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .promo__text {
+        margin-bottom: 60px;
+    }
+}
