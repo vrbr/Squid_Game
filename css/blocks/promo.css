@@ -1,0 +1,120 @@
+.promo__wrapper {
+    position: relative;
+    padding: 100px 4% 40px 6.25%;
+}
+.promo__wrapper::after {
+    position: absolute;
+    content: "";
+    background-image: url("../../img/promo-bg@1x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 143px;
+    height: 322px;
+    right: 0;
+    top: 83px;
+    z-index: -1;
+}
+@media (min-resolution: 2dppx) and (min-width: 320px) {
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg@2x.png");
+        width: 143px;
+        height: 322px;
+    }
+}
+.promo__title {
+    margin: 0;
+    font-size: 50px;
+    line-height: 105%;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 0px 9.35593px rgba(255, 255, 255, 0.4);
+}
+.promo__subtitle {
+    margin-top: -3px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.51em;
+    color: #6D6D6D;
+}
+.promo__text {
+    margin: 0;
+    margin-bottom: 50px;
+    max-width: 530px;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    color: #B5B5B5;
+}
+
+@media (min-width: 768px) {
+    .promo__wrapper {
+        padding: 121px 7.81% 100px;
+    }
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg-tab@1x.png");
+        width: 279px;
+        height: 421px;
+        right: 6%;
+        top: 70px;
+    }
+    .promo__title {
+        font-size: 60px;
+        line-height: 71px;
+        letter-spacing: 0.11em;
+        text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.4);
+    }
+    .promo__subtitle {
+        margin-top: 0px;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.44em;
+    }
+}
+
+@media (min-resolution: 2dppx) and (min-width: 768px) {
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg-tab@2x.png");
+        width: 279px;
+        height: 421px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .promo__wrapper {
+        padding-top: 189px;
+    }
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg-lap@1x.png");
+        top: 140px;
+    }
+}
+
+@media (min-resolution: 2dppx) and (min-width: 1200px) {
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg-lap@2x.png");
+    }
+}
+
+@media (min-width: 1440px) {
+    .promo__wrapper {
+        padding: 189px 500px 150px 12.15%;
+    }
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg-desk@1x.png");
+        width: 378px;
+        height: 569px;
+        right: 7%;
+        top: 79px;
+    }
+    .promo__title {
+        font-size: 70px;
+        line-height: 83px;
+    }
+    .promo__subtitle {
+        margin-bottom: 60px;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .promo__text {
+        margin-bottom: 60px;
+    }
+}
