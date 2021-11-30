@@ -118,3 +118,9 @@
         margin-bottom: 60px;
     }
 }
+
+@media (min-resolution: 2dppx) and (min-width: 1440px) {
+    .promo__wrapper::after {
+        background-image: url("../../img/promo-bg-desk@2x.png");
+    }
+}
