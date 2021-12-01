@@ -119,6 +119,19 @@ body {
         left: 6px;
         top: 6px;
     }
+    .main-title {
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .main-subtitle {
+        top: -43px;
+        font-size: 70px;
+        line-height: 83px;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 @media (min-width: 1440px) {
