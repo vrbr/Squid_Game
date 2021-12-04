@@ -151,4 +151,17 @@ body {
         width: 228px;
         height: 69px;
     }
+    .main-title {
+        font-size: 45px;
+        line-height: 53px;
+    }
+    .main-subtitle {
+        top: -51px;
+        font-size: 86px;
+        line-height: 102px;
+    }
+    .title {
+        font-size: 26px;
+        line-height: 31px;
+    }
 }
