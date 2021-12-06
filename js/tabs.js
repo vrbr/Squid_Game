@@ -16,21 +16,36 @@ const tabs = () => {
         rec.style.top = "80px";
     });
     input4.addEventListener('click', () => {
-        rec.style.top = "122px";
+        rec.style.top = "120px";
     });
 
     if (document.documentElement.clientWidth >= 768) {
         input1.addEventListener('click', () => {
-            rec.style.top = "-2px";
+            rec.style.top = "-1px";
         });
         input2.addEventListener('click', () => {
-            rec.style.top = "41px";
+            rec.style.top = "43px";
         });
         input3.addEventListener('click', () => {
-            rec.style.top = "85px";
+            rec.style.top = "87px";
         });
         input4.addEventListener('click', () => {
-            rec.style.top = "126px";
+            rec.style.top = "130px";
+        });
+    }
+
+    if (document.documentElement.clientWidth >= 1440) {
+        input1.addEventListener('click', () => {
+            rec.style.top = "2px";
+        });
+        input2.addEventListener('click', () => {
+            rec.style.top = "63px";
+        });
+        input3.addEventListener('click', () => {
+            rec.style.top = "124px";
+        });
+        input4.addEventListener('click', () => {
+            rec.style.top = "186px";
         });
     }
 };
