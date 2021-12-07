@@ -13,11 +13,11 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
         dynamicBullets: true,
         dynamicMainBullets: 1,
     },
-    // breakpoints: {
-    //     640: {
-    //         slidesPerView: 2,
-    //         spaceBetween: 20,
-    //     },
+    breakpoints: {
+        700: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
     //     768: {
     //         slidesPerView: 4,
     //         spaceBetween: 40,
@@ -26,5 +26,5 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
     //         slidesPerView: 5,
     //         spaceBetween: 50,
     //     },
-    // },
+    },
 });

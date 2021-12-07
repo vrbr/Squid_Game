@@ -21,6 +21,13 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+@media (min-resolution: 2dppx) and (min-width: 320px) {
+    .reviews-slide__cutaway {
+        background-image: url("../../img/cutaway@2x.jpg");
+        width: 280px;
+        height: 180px;
+    }
+}
 .reviews-slide__info {
     display: flex;
     align-items: center;
@@ -133,4 +140,89 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media (min-width: 768px) {
+    .reviews .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .reviews__titles {
+        margin-bottom: 50px;
+    }
+    .reviews-swiper {
+        padding-bottom: 70px;
+    }
+    .reviews-slide__cutaway {
+        background-image: url("../../img/cutaway-tab@1x.jpg");
+        width: 314px;
+        height: 222px;
+    }
+    .reviews-slide__info {
+        padding: 31px 35px 24px 52px;
+    }
+    .reviews-slide__img {
+        width: 59px;
+        height: 59px;
+    }
+    .reviews-slide__name {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .reviews-slide__text {
+        width: 83%;
+    }
+    .reviews-slide__review {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .swiper-buttons {
+        height: 39px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        bottom: 2px;
+        width: 45px;
+        height: 45px;
+    }
+    .swiper-button-next {
+        right: 10px;
+    }
+    .swiper-button-prev {
+        left: 10px;
+    }
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        width: 37px;
+        height: 34px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        height: 39px;
+    }
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next::before, .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev::before {
+        width: 32px;
+        height: 34px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main::after {
+        width: 37px;
+        height: 39px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media (min-resolution: 2dppx) and (min-width: 768px) {
+    .reviews-slide__cutaway {
+        background-image: url("../../img/cutaway-tab@2x.jpg");
+        width: 314px;
+        height: 222px;
+    }
 }
