@@ -41,6 +41,9 @@
     letter-spacing: 0.03em;
     color: #B5B5B5;
 }
+.inside-box__text-last {
+    margin-bottom: 0;
+}
 .inside-box__list input[type=radio] {
     position: absolute;
     cursor: pointer;
@@ -112,7 +115,7 @@
         right: -10px;
     }
 }
-@media (min-resolution: 2dppx) and (min-width: 320px) {
+@media (min-resolution: 2dppx) and (min-width: 768px) {
     .inside-box::after {
         background-image: url("../../img/inside-bg-tab@2x.png");
         width: 289px;
