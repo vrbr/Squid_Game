@@ -226,3 +226,72 @@
         height: 222px;
     }
 }
+
+@media (min-width: 1440px) {
+    .reviews__titles {
+        margin-bottom: 55px;
+    }
+    .reviews-swiper {
+        padding-bottom: 100px;
+    }
+    .reviews-slide__cutaway {
+        background-image: url("../../img/cutaway-desc@1x.jpg");
+        width: 337px;
+        height: 239px;
+    }
+    .reviews-slide__info {
+        padding: 32px 23px 19px 45px;
+    }
+    .reviews-slide__img {
+        width: 74px;
+        height: 74px;
+    }
+    .reviews-slide__name {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .reviews-slide__review {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .swiper-buttons,
+    .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        height: 45px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        bottom: 5px;
+    }
+    .swiper-button-next {
+        right: -10px;
+    }
+    .swiper-button-prev {
+        left: -10px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        width: 220px !important;
+        height: 45px;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        width: 42px;
+        height: 39px;
+    }
+    .swiper-pagination-bullet {
+        width: 45px;
+        height: 36px;
+    }
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next::before, .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev::before {
+        width: 37px;
+        height: 39px;
+    }
+    .swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main::after {
+        width: 43px;
+        height: 39px;
+    }
+}
+@media (min-resolution: 2dppx) and (min-width: 1440px) {
+    .reviews-slide__cutaway {
+        background-image: url("../../img/cutaway-desc@1x.jpg");
+        width: 353px;
+        height: 250px;
+    }
+}
