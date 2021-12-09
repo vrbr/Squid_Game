@@ -308,9 +308,132 @@
                 </div>
             </div>
         </section>
+        <section class="gallery">
+            <div class="gallery__wrapper">
+                <div class="main-titles gallery__titles">
+                    <h2 class="gallery__title main-title">Фотогалерея</h2>
+                    <p class="gallery__subtitle main-subtitle">photo gallery</p>
+                </div>
+                <div class="swiper mySwiper gallery-swiper" id="slider">
+                    <div class="swiper-wrapper gallery-swiper-wrapper">
+                        <div class="swiper-slide gallery-slide gallery-slide-01">
+                            <picture>
+                                <source media="(min-width: 1440px)" srcset="img/gallery/gallery-slide-desk-01@1x.jpg 1x, img/gallery/gallery-slide-desk-01@2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="img/gallery/gallery-slide-tab-01@1x.jpg 1x, img/gallery/gallery-slide-tab-01@2x.jpg 2x">
+                                <img class="gallery-slide__img" src="img/gallery/gallery-slide-01@1x.jpg" srcset="img/gallery/gallery-slide-01@2x.jpg" width="260" height="298" alt="Слайд №1">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide gallery-slide gallery-slide-02">
+                            <picture>
+                                <source media="(min-width: 1440px)" srcset="img/gallery/gallery-slide-desk-02@1x.jpg 1x, img/gallery/gallery-slide-desk-02@2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="img/gallery/gallery-slide-tab-02@1x.jpg 1x, img/gallery/gallery-slide-tab-02@2x.jpg 2x">
+                                <img class="gallery-slide__img" src="img/gallery/gallery-slide-02@1x.jpg" srcset="img/gallery/gallery-slide-02@2x.jpg" width="260" height="298" alt="Слайд №1">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide gallery-slide gallery-slide-03">
+                            <picture>
+                                <source media="(min-width: 1440px)" srcset="img/gallery/gallery-slide-desk-03@1x.jpg 1x, img/gallery/gallery-slide-desk-03@2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="img/gallery/gallery-slide-tab-03@1x.jpg 1x, img/gallery/gallery-slide-tab-03@2x.jpg 2x">
+                                <img class="gallery-slide__img" src="img/gallery/gallery-slide-03@1x.jpg" srcset="img/gallery/gallery-slide-03@2x.jpg" width="260" height="298" alt="Слайд №1">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide gallery-slide gallery-slide-04">
+                            <picture>
+                                <source media="(min-width: 1440px)" srcset="img/gallery/gallery-slide-desk-04@1x.jpg 1x, img/gallery/gallery-slide-desk-04@2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="img/gallery/gallery-slide-tab-04@1x.jpg 1x, img/gallery/gallery-slide-tab-04@2x.jpg 2x">
+                                <img class="gallery-slide__img" src="img/gallery/gallery-slide-04@1x.jpg" srcset="img/gallery/gallery-slide-04@2x.jpg" width="260" height="298" alt="Слайд №1">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide gallery-slide gallery-slide-05">
+                            <picture>
+                                <source media="(min-width: 1440px)" srcset="img/gallery/gallery-slide-desk-05@1x.jpg 1x, img/gallery/gallery-slide-desk-05@2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="img/gallery/gallery-slide-tab-05@1x.jpg 1x, img/gallery/gallery-slide-tab-05@2x.jpg 2x">
+                                <img class="gallery-slide__img" src="img/gallery/gallery-slide-05@1x.jpg" srcset="img/gallery/gallery-slide-05@2x.jpg" width="260" height="298" alt="Слайд №1">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide gallery-slide gallery-slide-06">
+                            <source media="(min-width: 1440px)" srcset="img/gallery/gallery-slide-desk-06@1x.jpg 1x, img/gallery/gallery-slide-desk-06@2x.jpg 2x">
+                            <picture><source media="(min-width: 768px)" srcset="img/gallery/gallery-slide-tab-06@1x.jpg 1x, img/gallery/gallery-slide-tab-06@2x.jpg 2x">
+                                <img class="gallery-slide__img" src="img/gallery/gallery-slide-06@1x.jpg" srcset="img/gallery/gallery-slide-06@2x.jpg" width="260" height="298" alt="Слайд №1">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="gallery-swiper-buttons">
+                        <div class="swiper-button-prev gallery-swiper-button-prev"></div>
+                        <div class="swiper-button-next gallery-swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="order">
+            <div class="container">
+                <div class="main-titles order__titles">
+                    <h2 class="order__title main-title">закажи прямо сейчас</h2>
+                    <p class="order__subtitle main-subtitle">Right now</p>
+                </div>
+                <form action="#" method="post" class="order-form">
+                    <div class="order-form__wrapper">
+                        <div class="order-form__name">
+                            <label class="order-form__label order-form__name-label" for="name">ФИО</label>
+                            <input class="order-form__input order-form__name-input" type="text" name="name" id="name" placeholder="Фролов Павел Павлович" required>
+                        </div>
+                        <div class="order-form__phone">
+                            <label class="order-form__label order-form__phone-label" for="phonee">НОМЕР ТЕЛЕФОНА</label>
+                            <input class="order-form__input order-form__phone-input" type="text" name="phone" id="phone" placeholder="098 000 00 00" required>
+                        </div>
+                        <div class="order-form__city">
+                            <label class="order-form__label order-form__city-label" for="city">ГОРОД</label>
+                            <input class="order-form__input order-form__city-input" type="text" name="city" id="city" placeholder="Киев" required>
+                        </div>
+                        <div class="order-form__office">
+                            <label class="order-form__label order-form__office-label" for="office">ОТДЕЛЕНИЕ НП</label>
+                            <input class="order-form__input order-form__office-input" type="text" name="office" id="office" placeholder="№52" required>
+                        </div>
+                        <div class="order-form__sum">
+                            <span class="order-form__label order-form__sum-label">СУММА К ОПЛАТЕ</span>
+                            <div class="order-form__sum-wrapper">
+                                <div class="order-form__sum-wrapper--number">
+                                    <span class="order-form__sum-old">300 ₴</span>
+                                    <span class="order-form__sum-new">250 ₴</span>
+                                </div>
+                                <p class="order-form__sum-more">(стоимость<br>доставки согласно тарифам Новой почты)</p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <button class="button order-form__button" type="submit">Заказать карты</button>
+            </div>
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a class="footer__logo">
+                <picture>
+                    <source media="(min-width: 1440px)" srcset="img/logo-desk.svg">
+                    <source media="(min-width: 768px)" srcset="img/logo-tab.svg">
+                    <img src="img/logo.svg" width="100" height="34" alt="logo">
+                </picture>
+            </a>
+            <div class="footer__social">
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a class="footer__social-link footer__social-fb" href="#">
+                            <img src="img/fb.svg" width="15" height="22" alt="Ссылка на фейсбук">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link footer__social-insta" href="#">
+                            <img src="img/insta.svg" width="22" height="22" alt="Ссылка на инстаграм">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/tabs.js"></script>
     <script src="js/reviews-swiper.js"></script>
+    <script src="js/gallery-swiper.js"></script>
 </body>
 </html>
