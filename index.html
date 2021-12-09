@@ -42,7 +42,7 @@
                 <a class="header__order" href="">Заказать</a>
             </div>
             <button class="header__menu" type="button">
-                <span class="visually-hidden">Открыть/закрыть меню</span>
+                <span class="visually-hidden">Открыть меню</span>
             </button>
         </div>
     </header>
@@ -431,8 +431,56 @@
             </div>
         </div>
     </footer>
+
+    <div class="mobile-menu">
+        <div class="container">
+            <div class="mobile-menu__header">
+                <a class="mobile-menu__logo">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/logo-tab.svg">
+                        <img src="img/logo.svg" width="100" height="34" alt="logo">
+                    </picture>
+                </a>
+                <button class="mobile-menu__close" type="button">
+                    <span class="visually-hidden">Закрыть меню</span>
+                </button>
+            </div>
+            <div class="mobile-menu__main">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">Об игре</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">Что внутри</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">Отзывы</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">Фотогалерея</a>
+                    </li>
+                </ul>
+                <button class="button mobile-menu__button">Заказать карты</button>
+            </div>
+            <div class="mobile-menu__social">
+                <ul class="mobile-menu__social-list">
+                    <li class="mobile-menu__social-item">
+                        <a class="mobile-menu__social-link mobile-menu__social-fb" href="#">
+                            <img src="img/fb.svg" width="15" height="22" alt="Ссылка на фейсбук">
+                        </a>
+                    </li>
+                    <li class="mobile-menu__social-item">
+                        <a class="mobile-menu__social-link mobile-menu__social-insta" href="#">
+                            <img src="img/insta.svg" width="22" height="22" alt="Ссылка на инстаграм">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/tabs.js"></script>
+    <script src="js/mobile-menu.js"></script>
     <script src="js/reviews-swiper.js"></script>
     <script src="js/gallery-swiper.js"></script>
 </body>
