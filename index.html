@@ -365,6 +365,45 @@
                 </div>
             </div>
         </section>
+        <section class="order">
+            <div class="container">
+                <div class="main-titles order__titles">
+                    <h2 class="order__title main-title">закажи прямо сейчас</h2>
+                    <p class="order__subtitle main-subtitle">Right now</p>
+                </div>
+                <form action="#" method="post" class="order-form">
+                    <div class="order-form__wrapper">
+                        <div class="order-form__name">
+                            <label class="order-form__label order-form__name-label" for="name">ФИО</label>
+                            <input class="order-form__input order-form__name-input" type="text" name="name" id="name" placeholder="Фролов Павел Павлович" required>
+                        </div>
+                        <div class="order-form__phone">
+                            <label class="order-form__label order-form__phone-label" for="phonee">НОМЕР ТЕЛЕФОНА</label>
+                            <input class="order-form__input order-form__phone-input" type="text" name="phone" id="phone" placeholder="098 000 00 00" required>
+                        </div>
+                        <div class="order-form__city">
+                            <label class="order-form__label order-form__city-label" for="city">ГОРОД</label>
+                            <input class="order-form__input order-form__city-input" type="text" name="city" id="city" placeholder="Киев" required>
+                        </div>
+                        <div class="order-form__office">
+                            <label class="order-form__label order-form__office-label" for="office">ОТДЕЛЕНИЕ НП</label>
+                            <input class="order-form__input order-form__office-input" type="text" name="office" id="office" placeholder="№52" required>
+                        </div>
+                        <div class="order-form__sum">
+                            <span class="order-form__label order-form__sum-label">СУММА К ОПЛАТЕ</span>
+                            <div class="order-form__sum-wrapper">
+                                <div class="order-form__sum-wrapper--number">
+                                    <span class="order-form__sum-old">300 ₴</span>
+                                    <span class="order-form__sum-new">250 ₴</span>
+                                </div>
+                                <p class="order-form__sum-more">(стоимость<br>доставки согласно тарифам Новой почты)</p>
+                            </div>
+                        </div>
+                        <button class="button order-form__button" type="submit">Заказать карты</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/tabs.js"></script>

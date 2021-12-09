@@ -1,0 +1,93 @@
+.order .container {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.order__titles {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.order__subtitle {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.order-form__wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.order-form__wrapper > div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.order-form__wrapper > div:last-of-type {
+    margin-bottom: 50px;
+}
+.order-form__label {
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: right;
+}
+.order-form__input {
+    position: relative;
+    min-height: 36px;
+    width: 166px;
+    padding-left: 17px;
+    padding-right: 10px;
+    outline: none;
+    border: 3px solid #E83D81;
+    background-color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.order-form__input::after {
+    position: absolute;
+    content: "";
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    filter: blur(0.935593px) drop-shadow(0px 0px 9.35593px rgba(255, 255, 255, 0.4));
+    width: 166px;
+    height: 35px;
+    left: 3px;
+    top: 3px;
+    z-index: -1;
+}
+.order-form__input::placeholder {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    color: #101010;
+}
+.order-form__sum-wrapper--number {
+    display: flex;
+    align-items: flex-start;
+    width: 166px;
+}
+.order-form__sum-old {
+    display: block;
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B5B5B5;
+    text-decoration: line-through;
+}
+.order-form__sum-new {
+    display: block;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26px;
+}
+.order-form__sum-more {
+    margin: 0;
+    margin-top: -5px;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9px;
+    letter-spacing: -0.04em;
+}
+.order-form__button {
+    margin: 0 auto;
+}
