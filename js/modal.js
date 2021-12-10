@@ -1,18 +1,29 @@
 const buttonForm = document.querySelector('.order-form__button');
 const modal = document.querySelector('.modal');
 const modalClose = document.querySelector('.modal__close');
-const scrollY2 = document.body.style.top;
+
 
 buttonForm.addEventListener('click', () => {
     modal.style.display = "block";
-    document.body.style.position = 'fixed';
     document.body.style.width = '100vw';
-    // document.body.style.top = `-${window.scrollY}px`;
+    document.body.style.position = 'fixed';
+    document.body.style.bottom = '0';
 });
 
 modalClose.addEventListener('click', () => {
-    modal.style.display = "";
+    modal.style.display = '';
+    document.body.style.width = '';
     document.body.style.position = '';
-    // document.body.style.top = '';
-    // window.scrollTo(0, parseInt(scrollY2 || '0') * -1);
+    document.body.style.bottom = '';
 });
+
+document.body.addEventListener('keyup', function (e) {
+    const key = e.keyCode;
+
+    if (key == 27) {
+        modal.style.display = '';
+        document.body.style.width = '';
+        document.body.style.position = '';
+        document.body.style.bottom = '';
+    }
+}, false);

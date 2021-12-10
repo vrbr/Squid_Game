@@ -126,6 +126,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url("../../img/modal@1x.jpg");
+    background-size: cover;
     width: 280px;
     height: 180px;
     background-repeat: no-repeat;
@@ -220,7 +221,6 @@
 @media (min-width: 1440px) {
     .modal__cart {
         background-image: url("../../img/modal-desk@1x.jpg");
-        background-size: contain;
         width: 361px;
         height: 240px;
         padding: 36px;
