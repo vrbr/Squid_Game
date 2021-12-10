@@ -23,17 +23,30 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .footer__logo {
+        cursor: pointer;
+    }
     .footer__logo img {
         width: 115px;
         height: 39px;
+        transition: all ease 0.5s;
     }
-    .footer__social-fb img {
+    .footer__logo:hover img {
+        transform: scale(1.1);
+    }
+    .footer__social-fb svg {
         width: 16px;
         height: 24px;
     }
-    .footer__social-insta img {
+    .footer__social-insta svg {
         width: 24px;
         height: 24px;
+    }
+    .footer__social-link svg path {
+        transition: all ease 0.5s;
+    }
+    .footer__social-link:hover svg path {
+        fill: #fff;
     }
 }
 

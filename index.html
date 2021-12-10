@@ -7,6 +7,7 @@
     <title>SquidGame</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/blocks/global/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top">
@@ -23,23 +24,20 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a class="header__link" href="">Об игре</a>
+                            <a class="header__link" href="#about">Об игре</a>
                         </li>
                         <li class="header__item">
-                            <a class="header__link" href="">Что внутри</a>
+                            <a class="header__link" href="#inside">Что внутри</a>
                         </li>
                         <li class="header__item">
-                            <a class="header__link" href="">Отзывы</a>
+                            <a class="header__link" href="#reviews">Отзывы</a>
                         </li>
                         <li class="header__item">
-                            <a class="header__link" href="">Фотогалерея</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__link header__link-order" href="">Заказать</a>
+                            <a class="header__link" href="#gallery">Фотогалерея</a>
                         </li>
                     </ul>
                 </nav>
-                <a class="header__order" href="">Заказать</a>
+                <a class="header__order" href="#order">Заказать</a>
             </div>
             <button class="header__menu" type="button">
                 <span class="visually-hidden">Открыть меню</span>
@@ -50,53 +48,53 @@
     <main class="main">
         <section class="promo">
             <div class="promo__wrapper">
-                <h1 class="promo__title">ИГРА В КАЛЬМАРА</h1>
-                <p class="promo__subtitle">выживет сильнейший</p>
+                <h1 class="promo__title wow animate__animated animate__fadeInRight">ИГРА В КАЛЬМАРА</h1>
+                <p class="promo__subtitle wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">выживет сильнейший</p>
                 <p class="promo__text">Настольная игра для компании, в которой  все игроки соревнуются между собой.  Ставки смертельно высоки...</p>
-                <button class="button promo__button">Заказать карты</button>
+                <a class="button promo__button" href="#order">Заказать карты</a>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="about__wrapper">
                 <div class="main-titles about__titles">
-                    <h2 class="about__title main-title">Все о нашей игре</h2>
-                    <p class="about__subtitle main-subtitle">OUR GAME</p>
+                    <h2 class="about__title main-title wow animate__animated animate__fadeInRight" data-wow-offset="80">Все о нашей игре</h2>
+                    <p class="about__subtitle main-subtitle wow animate__animated animate__fadeInRight" data-wow-delay="0.5s" data-wow-offset="60">OUR GAME</p>
                 </div>
 
                 <div class="about-block about-block-first">
                     <div class="about-block-first__box">
-                        <p class="about-block-first__text text-1">24 карты<span>заданий</span></p>
-                        <p class="about-block-first__text text-2">20 карт<span>наказаний</span></p>
-                        <p class="about-block-first__text text-3">Время игры<span>30 - 60 минут</span></p>
+                        <p class="about-block-first__text text-1 wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s">24 карты<span>заданий</span></p>
+                        <p class="about-block-first__text text-2 wow animate__animated animate__fadeInLeft" data-wow-delay="0.8s">20 карт<span>наказаний</span></p>
+                        <p class="about-block-first__text text-3 wow animate__animated animate__fadeInLeft" data-wow-delay="1s">Время игры<span>30 - 60 минут</span></p>
                     </div>
                 </div>
                 <div class="about-block about-block-second">
-                    <h3 class="about-block__title title">44 КАРТЫ</h3>
+                    <h3 class="about-block__title title wow animate__animated animate__fadeIn">44 КАРТЫ</h3>
                     <div class="about-block-second__box">
-                        <p class="about-block-second__text text-1">
+                        <p class="about-block-second__text text-1 wow animate__animated animate__fadeInDown" data-wow-delay="0.5s">
                             <span class="text-span1">12</span>
                             <span class="text-span2">простых<br>заданий</span>
                         </p>
-                        <p class="about-block-second__text text-2">
+                        <p class="about-block-second__text text-2 wow animate__animated animate__fadeInTopRight" data-wow-delay="0.7s">
                             <span class="text-span1">12</span>
                             <span class="text-span2">сложных<br>заданий</span>
                         </p>
-                        <p class="about-block-second__text text-3">
+                        <p class="about-block-second__text text-3 wow animate__animated animate__fadeInRight" data-wow-delay="0.9s">
                             <span class="text-span1">10</span>
                             <span class="text-span2">простых<br>наказыний</span>
                         </p>
-                        <p class="about-block-second__text text-4">
+                        <p class="about-block-second__text text-4 wow animate__animated animate__fadeInBottomRight" data-wow-delay="1.1s">
                             <span class="text-span1">10</span>
                             <span class="text-span2">сложных<br>наказаний</span>
                         </p>
-                        <p class="about-block-second__text text-5">
+                        <p class="about-block-second__text text-5 wow animate__animated animate__fadeInUp" data-wow-delay="1.3s">
                             <span class="text-span1">06</span>
                             <span class="text-span2">раундов</span>
                         </p>
                     </div>
                 </div>
                 <div class="about-block about-block-third">
-                    <h3 class="about-block__title title">ПРАВИЛА</h3>
+                    <h3 class="about-block__title title wow animate__animated animate__fadeIn">ПРАВИЛА</h3>
                     <div class="about-block-third__box">
                         <p class="about-block-third__text">
                             Перед вами 2 колоды карт заданий и 2 колоды карт наказаний. В обеих колодах карты делятся на 2 уровня: простые и сложные. Всего в игре 6 раундов. Первые 3 раунда игроки по очереди берут карты из простых заданийБ следующие 3 раунды - из сложных. Игрок, который выполняет задания, продолжает игру без наказаний. Игрок, который не выполняет задание - берет карту наказания. Игрок, который получил 3 наказания подряд - покидает игру.
@@ -105,11 +103,11 @@
                 </div>
             </div>
         </section>
-        <section class="inside">
+        <section class="inside" id="inside">
             <div class="container">
                 <div class="main-titles inside__titles">
-                    <h2 class="inside__title main-title">Что внутри</h2>
-                    <p class="inside__subtitle main-subtitle">what is inside</p>
+                    <h2 class="inside__title main-title wow animate__animated animate__fadeInRight" data-wow-offset="80">Что внутри</h2>
+                    <p class="inside__subtitle main-subtitle wow animate__animated animate__fadeInRight" data-wow-delay="0.5s" data-wow-offset="60">what is inside</p>
                 </div>
                 <div class="inside-box">
                     <div class="inside-box__rec"></div>
@@ -144,11 +142,11 @@
                 </div>
             </div>
         </section>
-        <section class="reviews">
+        <section class="reviews" id="reviews">
             <div class="container">
                 <div class="main-titles reviews__titles">
-                    <h2 class="reviews__title main-title">отзывы о нас</h2>
-                    <p class="reviews__subtitle main-subtitle">instagram</p>
+                    <h2 class="reviews__title main-title wow animate__animated animate__fadeInRight" data-wow-offset="80">отзывы о нас</h2>
+                    <p class="reviews__subtitle main-subtitle wow animate__animated animate__fadeInRight" data-wow-delay="0.5s" data-wow-offset="60">instagram</p>
                 </div>
                 <div class="swiper mySwiper reviews-swiper">
                     <div class="swiper-wrapper reviews-swiper-wrapper">
@@ -308,11 +306,11 @@
                 </div>
             </div>
         </section>
-        <section class="gallery">
+        <section class="gallery" id="gallery">
             <div class="gallery__wrapper">
                 <div class="main-titles gallery__titles">
-                    <h2 class="gallery__title main-title">Фотогалерея</h2>
-                    <p class="gallery__subtitle main-subtitle">photo gallery</p>
+                    <h2 class="gallery__title main-title wow animate__animated animate__fadeInRight" data-wow-offset="80">Фотогалерея</h2>
+                    <p class="gallery__subtitle main-subtitle wow animate__animated animate__fadeInRight" data-wow-delay="0.5s" data-wow-offset="60">photo gallery</p>
                 </div>
                 <div class="swiper mySwiper gallery-swiper" id="slider">
                     <div class="swiper-wrapper gallery-swiper-wrapper">
@@ -365,33 +363,33 @@
                 </div>
             </div>
         </section>
-        <section class="order">
+        <section class="order" id="order">
             <div class="container">
                 <div class="main-titles order__titles">
-                    <h2 class="order__title main-title">закажи прямо сейчас</h2>
-                    <p class="order__subtitle main-subtitle">Right now</p>
+                    <h2 class="order__title main-title wow animate__animated animate__fadeInRight" data-wow-offset="80">закажи прямо сейчас</h2>
+                    <p class="order__subtitle main-subtitle wow animate__animated animate__fadeInRight" data-wow-delay="0.5s" data-wow-offset="60">Right now</p>
                 </div>
                 <form action="#" method="post" class="order-form">
                     <div class="order-form__wrapper">
                         <div class="order-form__name">
-                            <label class="order-form__label order-form__name-label" for="name">ФИО</label>
-                            <input class="order-form__input order-form__name-input" type="text" name="name" id="name" placeholder="Фролов Павел Павлович" required>
+                            <label class="order-form__label order-form__name-label wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s" for="name">ФИО</label>
+                            <input class="order-form__input order-form__name-input wow animate__animated animate__fadeInRight" data-wow-delay="0.5s" type="text" name="name" id="name" placeholder="Фролов Павел Павлович" required>
                         </div>
                         <div class="order-form__phone">
-                            <label class="order-form__label order-form__phone-label" for="phonee">НОМЕР ТЕЛЕФОНА</label>
-                            <input class="order-form__input order-form__phone-input" type="text" name="phone" id="phone" placeholder="098 000 00 00" required>
+                            <label class="order-form__label order-form__phone-label wow animate__animated animate__fadeInLeft" data-wow-delay="0.7s" for="phonee">НОМЕР ТЕЛЕФОНА</label>
+                            <input class="order-form__input order-form__phone-input wow animate__animated animate__fadeInRight" data-wow-delay="0.7s" type="text" name="phone" id="phone" placeholder="098 000 00 00" required>
                         </div>
                         <div class="order-form__city">
-                            <label class="order-form__label order-form__city-label" for="city">ГОРОД</label>
-                            <input class="order-form__input order-form__city-input" type="text" name="city" id="city" placeholder="Киев" required>
+                            <label class="order-form__label order-form__city-label wow animate__animated animate__fadeInLeft" data-wow-delay="0.9s" for="city">ГОРОД</label>
+                            <input class="order-form__input order-form__city-input wow animate__animated animate__fadeInRight" data-wow-delay="0.9s" type="text" name="city" id="city" placeholder="Киев" required>
                         </div>
                         <div class="order-form__office">
-                            <label class="order-form__label order-form__office-label" for="office">ОТДЕЛЕНИЕ НП</label>
-                            <input class="order-form__input order-form__office-input" type="text" name="office" id="office" placeholder="№52" required>
+                            <label class="order-form__label order-form__office-label wow animate__animated animate__fadeInLeft" data-wow-delay="1.1s" for="office">ОТДЕЛЕНИЕ НП</label>
+                            <input class="order-form__input order-form__office-input wow animate__animated animate__fadeInRight" data-wow-delay="1.1s" type="text" name="office" id="office" placeholder="52" required>
                         </div>
                         <div class="order-form__sum">
-                            <span class="order-form__label order-form__sum-label">СУММА К ОПЛАТЕ</span>
-                            <div class="order-form__sum-wrapper">
+                            <span class="order-form__label order-form__sum-label wow animate__animated animate__fadeInLeft" data-wow-delay="1.3s">СУММА К ОПЛАТЕ</span>
+                            <div class="order-form__sum-wrapper wow animate__animated animate__fadeInRight" data-wow-delay="1.3s">
                                 <div class="order-form__sum-wrapper--number">
                                     <span class="order-form__sum-old">300 ₴</span>
                                     <span class="order-form__sum-new">250 ₴</span>
@@ -408,7 +406,7 @@
 
     <footer class="footer">
         <div class="container">
-            <a class="footer__logo">
+            <a class="footer__logo" href="#top">
                 <picture>
                     <source media="(min-width: 1440px)" srcset="img/logo-desk.svg">
                     <source media="(min-width: 768px)" srcset="img/logo-tab.svg">
@@ -419,12 +417,16 @@
                 <ul class="footer__social-list">
                     <li class="footer__social-item">
                         <a class="footer__social-link footer__social-fb" href="#">
-                            <img src="img/fb.svg" width="15" height="22" alt="Ссылка на фейсбук">
+                            <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.23077 21.7219H4.61538C4.30937 21.7219 4.01588 21.608 3.79949 21.4052C3.5831 21.2024 3.46154 20.9274 3.46154 20.6406V13.9363H1.15385C0.847827 13.9363 0.554342 13.8224 0.337954 13.6196C0.121566 13.4168 0 13.1418 0 12.855V8.96223C0 8.67544 0.121566 8.4004 0.337954 8.19761C0.554342 7.99482 0.847827 7.8809 1.15385 7.8809H3.46154V6.04264C3.54242 4.39507 4.3161 2.84454 5.61343 1.73006C6.91076 0.615583 8.62618 0.0278324 10.3846 0.0953186H13.8462C14.1522 0.0953186 14.4457 0.209244 14.662 0.412033C14.8784 0.614822 15 0.889862 15 1.17665V5.06944C15 5.35622 14.8784 5.63127 14.662 5.83405C14.4457 6.03684 14.1522 6.15077 13.8462 6.15077H10.3846V7.8809H13.8462C14.0243 7.87963 14.2004 7.91705 14.3605 7.99021C14.5207 8.06338 14.6606 8.17031 14.7692 8.30262C14.8767 8.43691 14.9493 8.59282 14.9814 8.75798C15.0134 8.92314 15.004 9.09303 14.9538 9.25419L13.8 13.147C13.7302 13.3809 13.5784 13.5859 13.3691 13.7291C13.1598 13.8723 12.9051 13.9453 12.6462 13.9363H10.3846V20.6406C10.3846 20.9274 10.263 21.2024 10.0467 21.4052C9.83027 21.608 9.53679 21.7219 9.23077 21.7219ZM5.76923 19.5593H8.07692V12.855C8.07692 12.5682 8.19849 12.2932 8.41488 12.0904C8.63126 11.8876 8.92475 11.7737 9.23077 11.7737H11.8154L12.3231 10.0436H9.23077C8.92475 10.0436 8.63126 9.92963 8.41488 9.72684C8.19849 9.52405 8.07692 9.24901 8.07692 8.96223V6.04264C8.10655 5.48801 8.3627 4.96532 8.79231 4.58284C9.22191 4.20036 9.79205 3.98741 10.3846 3.98811H12.6923V2.25798H10.3846C9.23863 2.19255 8.11133 2.55322 7.24729 3.26174C6.38324 3.97026 5.85215 4.96949 5.76923 6.04264V8.96223C5.76923 9.24901 5.64767 9.52405 5.43128 9.72684C5.21489 9.92963 4.9214 10.0436 4.61538 10.0436H2.30769V11.7737H4.61538C4.9214 11.7737 5.21489 11.8876 5.43128 12.0904C5.64767 12.2932 5.76923 12.5682 5.76923 12.855V19.5593Z" fill="#E83D81"/>
+                            </svg>
                         </a>
                     </li>
                     <li class="footer__social-item">
                         <a class="footer__social-link footer__social-insta" href="#">
-                            <img src="img/insta.svg" width="22" height="22" alt="Ссылка на инстаграм">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.874 3.8324C16.6129 3.8324 16.3577 3.90852 16.1406 4.05113C15.9236 4.19375 15.7544 4.39645 15.6545 4.63362C15.5546 4.87078 15.5284 5.13175 15.5794 5.38352C15.6303 5.63529 15.756 5.86655 15.9406 6.04807C16.1252 6.22958 16.3604 6.3532 16.6165 6.40328C16.8725 6.45336 17.1379 6.42765 17.3791 6.32942C17.6203 6.23118 17.8265 6.06483 17.9715 5.85139C18.1166 5.63795 18.194 5.38701 18.194 5.13031C18.194 4.78608 18.0549 4.45595 17.8074 4.21254C17.5598 3.96914 17.2241 3.8324 16.874 3.8324ZM21.934 6.44985C21.9126 5.55245 21.7417 4.66458 21.428 3.82158C21.1483 3.1003 20.713 2.44718 20.152 1.90716C19.6073 1.35277 18.9415 0.927431 18.205 0.663332C17.3499 0.345517 16.4459 0.173598 15.532 0.154983C14.366 0.0900878 13.992 0.0900879 11 0.0900879C8.008 0.0900879 7.634 0.0900878 6.468 0.154983C5.55407 0.173598 4.65008 0.345517 3.795 0.663332C3.05984 0.930105 2.39463 1.35508 1.848 1.90716C1.28417 2.44274 0.851594 3.09739 0.583 3.82158C0.259777 4.66235 0.084931 5.55121 0.0659999 6.44985C-6.14673e-08 7.59633 0 7.96408 0 10.906C0 13.8479 -6.14673e-08 14.2157 0.0659999 15.3622C0.084931 16.2608 0.259777 17.1497 0.583 17.9904C0.851594 18.7146 1.28417 19.3693 1.848 19.9049C2.39463 20.4569 3.05984 20.8819 3.795 21.1487C4.65008 21.4665 5.55407 21.6384 6.468 21.657C7.634 21.7219 8.008 21.7219 11 21.7219C13.992 21.7219 14.366 21.7219 15.532 21.657C16.4459 21.6384 17.3499 21.4665 18.205 21.1487C18.9415 20.8846 19.6073 20.4592 20.152 19.9049C20.7155 19.3668 21.1512 18.7131 21.428 17.9904C21.7417 17.1474 21.9126 16.2596 21.934 15.3622C21.934 14.2157 22 13.8479 22 10.906C22 7.96408 22 7.59633 21.934 6.44985ZM19.954 15.2324C19.946 15.9189 19.8195 16.5992 19.58 17.2441C19.4044 17.7148 19.1223 18.1402 18.755 18.488C18.3982 18.8454 17.9665 19.1222 17.49 19.2992C16.8341 19.5347 16.1423 19.659 15.444 19.6669C14.344 19.721 13.937 19.7318 11.044 19.7318C8.151 19.7318 7.744 19.7318 6.644 19.6669C5.91898 19.6802 5.19705 19.5705 4.51 19.3424C4.05436 19.1565 3.64249 18.8804 3.3 18.5312C2.9349 18.1838 2.65633 17.7581 2.486 17.2874C2.21744 16.6332 2.06849 15.9375 2.046 15.2324C2.046 14.1508 1.98 13.7506 1.98 10.906C1.98 8.06142 1.98 7.66123 2.046 6.57964C2.05093 5.87775 2.18125 5.18216 2.431 4.52461C2.62465 4.06809 2.92189 3.66113 3.3 3.33486C3.63419 2.96298 4.04722 2.66762 4.51 2.46959C5.18051 2.23169 5.8872 2.10734 6.6 2.10185C7.7 2.10185 8.107 2.03695 11 2.03695C13.893 2.03695 14.3 2.03695 15.4 2.10185C16.0982 2.10972 16.7901 2.23407 17.446 2.46959C17.9459 2.652 18.3945 2.94857 18.755 3.33486C19.1155 3.6671 19.3971 4.0733 19.58 4.52461C19.8245 5.18323 19.951 5.87853 19.954 6.57964C20.009 7.66123 20.02 8.06142 20.02 10.906C20.02 13.7506 20.009 14.1508 19.954 15.2324ZM11 5.35744C9.88439 5.35958 8.79446 5.68681 7.86792 6.2978C6.94138 6.90878 6.21982 7.77609 5.7944 8.79015C5.36898 9.8042 5.2588 10.9195 5.47777 11.9951C5.69675 13.0707 6.23506 14.0583 7.02468 14.8332C7.81431 15.6081 8.81981 16.1355 9.91415 16.3487C11.0085 16.562 12.1425 16.4514 13.173 16.0312C14.2035 15.6109 15.0842 14.8997 15.7037 13.9875C16.3233 13.0753 16.654 12.0029 16.654 10.906C16.6555 10.176 16.5101 9.453 16.2264 8.77847C15.9426 8.10393 15.526 7.49121 15.0006 6.97556C14.4751 6.4599 13.8511 6.05147 13.1646 5.77378C12.478 5.49608 11.7424 5.35459 11 5.35744ZM11 14.5077C10.2755 14.5077 9.56732 14.2965 8.96495 13.9007C8.36257 13.505 7.89307 12.9424 7.61583 12.2843C7.33859 11.6262 7.26605 10.902 7.40738 10.2033C7.54872 9.50469 7.89759 8.86293 8.40987 8.35922C8.92215 7.85551 9.57483 7.51248 10.2854 7.37351C10.9959 7.23454 11.7324 7.30586 12.4018 7.57847C13.0711 7.85107 13.6432 8.31271 14.0457 8.90501C14.4482 9.4973 14.663 10.1937 14.663 10.906C14.663 11.379 14.5683 11.8473 14.3842 12.2843C14.2001 12.7213 13.9303 13.1183 13.5901 13.4528C13.25 13.7872 12.8462 14.0525 12.4018 14.2335C11.9574 14.4145 11.481 14.5077 11 14.5077Z" fill="#E83D81"/>
+                            </svg>
                         </a>
                     </li>
                 </ul>
@@ -448,30 +450,34 @@
             <div class="mobile-menu__main">
                 <ul class="mobile-menu__list">
                     <li class="mobile-menu__item">
-                        <a href="" class="mobile-menu__link">Об игре</a>
+                        <a href="#about" class="mobile-menu__link anchor">Об игре</a>
                     </li>
                     <li class="mobile-menu__item">
-                        <a href="" class="mobile-menu__link">Что внутри</a>
+                        <a href="#inside" class="mobile-menu__link anchor">Что внутри</a>
                     </li>
                     <li class="mobile-menu__item">
-                        <a href="" class="mobile-menu__link">Отзывы</a>
+                        <a href="#reviews" class="mobile-menu__link anchor">Отзывы</a>
                     </li>
                     <li class="mobile-menu__item">
-                        <a href="" class="mobile-menu__link">Фотогалерея</a>
+                        <a href="#gallery" class="mobile-menu__link anchor">Фотогалерея</a>
                     </li>
                 </ul>
-                <button class="button mobile-menu__button">Заказать карты</button>
+                <a class="button mobile-menu__button anchor" href="#order">Заказать карты</a>
             </div>
             <div class="mobile-menu__social">
                 <ul class="mobile-menu__social-list">
                     <li class="mobile-menu__social-item">
                         <a class="mobile-menu__social-link mobile-menu__social-fb" href="#">
-                            <img src="img/fb.svg" width="15" height="22" alt="Ссылка на фейсбук">
+                            <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.23077 21.7219H4.61538C4.30937 21.7219 4.01588 21.608 3.79949 21.4052C3.5831 21.2024 3.46154 20.9274 3.46154 20.6406V13.9363H1.15385C0.847827 13.9363 0.554342 13.8224 0.337954 13.6196C0.121566 13.4168 0 13.1418 0 12.855V8.96223C0 8.67544 0.121566 8.4004 0.337954 8.19761C0.554342 7.99482 0.847827 7.8809 1.15385 7.8809H3.46154V6.04264C3.54242 4.39507 4.3161 2.84454 5.61343 1.73006C6.91076 0.615583 8.62618 0.0278324 10.3846 0.0953186H13.8462C14.1522 0.0953186 14.4457 0.209244 14.662 0.412033C14.8784 0.614822 15 0.889862 15 1.17665V5.06944C15 5.35622 14.8784 5.63127 14.662 5.83405C14.4457 6.03684 14.1522 6.15077 13.8462 6.15077H10.3846V7.8809H13.8462C14.0243 7.87963 14.2004 7.91705 14.3605 7.99021C14.5207 8.06338 14.6606 8.17031 14.7692 8.30262C14.8767 8.43691 14.9493 8.59282 14.9814 8.75798C15.0134 8.92314 15.004 9.09303 14.9538 9.25419L13.8 13.147C13.7302 13.3809 13.5784 13.5859 13.3691 13.7291C13.1598 13.8723 12.9051 13.9453 12.6462 13.9363H10.3846V20.6406C10.3846 20.9274 10.263 21.2024 10.0467 21.4052C9.83027 21.608 9.53679 21.7219 9.23077 21.7219ZM5.76923 19.5593H8.07692V12.855C8.07692 12.5682 8.19849 12.2932 8.41488 12.0904C8.63126 11.8876 8.92475 11.7737 9.23077 11.7737H11.8154L12.3231 10.0436H9.23077C8.92475 10.0436 8.63126 9.92963 8.41488 9.72684C8.19849 9.52405 8.07692 9.24901 8.07692 8.96223V6.04264C8.10655 5.48801 8.3627 4.96532 8.79231 4.58284C9.22191 4.20036 9.79205 3.98741 10.3846 3.98811H12.6923V2.25798H10.3846C9.23863 2.19255 8.11133 2.55322 7.24729 3.26174C6.38324 3.97026 5.85215 4.96949 5.76923 6.04264V8.96223C5.76923 9.24901 5.64767 9.52405 5.43128 9.72684C5.21489 9.92963 4.9214 10.0436 4.61538 10.0436H2.30769V11.7737H4.61538C4.9214 11.7737 5.21489 11.8876 5.43128 12.0904C5.64767 12.2932 5.76923 12.5682 5.76923 12.855V19.5593Z" fill="#E83D81"/>
+                            </svg>
                         </a>
                     </li>
                     <li class="mobile-menu__social-item">
                         <a class="mobile-menu__social-link mobile-menu__social-insta" href="#">
-                            <img src="img/insta.svg" width="22" height="22" alt="Ссылка на инстаграм">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.874 3.8324C16.6129 3.8324 16.3577 3.90852 16.1406 4.05113C15.9236 4.19375 15.7544 4.39645 15.6545 4.63362C15.5546 4.87078 15.5284 5.13175 15.5794 5.38352C15.6303 5.63529 15.756 5.86655 15.9406 6.04807C16.1252 6.22958 16.3604 6.3532 16.6165 6.40328C16.8725 6.45336 17.1379 6.42765 17.3791 6.32942C17.6203 6.23118 17.8265 6.06483 17.9715 5.85139C18.1166 5.63795 18.194 5.38701 18.194 5.13031C18.194 4.78608 18.0549 4.45595 17.8074 4.21254C17.5598 3.96914 17.2241 3.8324 16.874 3.8324ZM21.934 6.44985C21.9126 5.55245 21.7417 4.66458 21.428 3.82158C21.1483 3.1003 20.713 2.44718 20.152 1.90716C19.6073 1.35277 18.9415 0.927431 18.205 0.663332C17.3499 0.345517 16.4459 0.173598 15.532 0.154983C14.366 0.0900878 13.992 0.0900879 11 0.0900879C8.008 0.0900879 7.634 0.0900878 6.468 0.154983C5.55407 0.173598 4.65008 0.345517 3.795 0.663332C3.05984 0.930105 2.39463 1.35508 1.848 1.90716C1.28417 2.44274 0.851594 3.09739 0.583 3.82158C0.259777 4.66235 0.084931 5.55121 0.0659999 6.44985C-6.14673e-08 7.59633 0 7.96408 0 10.906C0 13.8479 -6.14673e-08 14.2157 0.0659999 15.3622C0.084931 16.2608 0.259777 17.1497 0.583 17.9904C0.851594 18.7146 1.28417 19.3693 1.848 19.9049C2.39463 20.4569 3.05984 20.8819 3.795 21.1487C4.65008 21.4665 5.55407 21.6384 6.468 21.657C7.634 21.7219 8.008 21.7219 11 21.7219C13.992 21.7219 14.366 21.7219 15.532 21.657C16.4459 21.6384 17.3499 21.4665 18.205 21.1487C18.9415 20.8846 19.6073 20.4592 20.152 19.9049C20.7155 19.3668 21.1512 18.7131 21.428 17.9904C21.7417 17.1474 21.9126 16.2596 21.934 15.3622C21.934 14.2157 22 13.8479 22 10.906C22 7.96408 22 7.59633 21.934 6.44985ZM19.954 15.2324C19.946 15.9189 19.8195 16.5992 19.58 17.2441C19.4044 17.7148 19.1223 18.1402 18.755 18.488C18.3982 18.8454 17.9665 19.1222 17.49 19.2992C16.8341 19.5347 16.1423 19.659 15.444 19.6669C14.344 19.721 13.937 19.7318 11.044 19.7318C8.151 19.7318 7.744 19.7318 6.644 19.6669C5.91898 19.6802 5.19705 19.5705 4.51 19.3424C4.05436 19.1565 3.64249 18.8804 3.3 18.5312C2.9349 18.1838 2.65633 17.7581 2.486 17.2874C2.21744 16.6332 2.06849 15.9375 2.046 15.2324C2.046 14.1508 1.98 13.7506 1.98 10.906C1.98 8.06142 1.98 7.66123 2.046 6.57964C2.05093 5.87775 2.18125 5.18216 2.431 4.52461C2.62465 4.06809 2.92189 3.66113 3.3 3.33486C3.63419 2.96298 4.04722 2.66762 4.51 2.46959C5.18051 2.23169 5.8872 2.10734 6.6 2.10185C7.7 2.10185 8.107 2.03695 11 2.03695C13.893 2.03695 14.3 2.03695 15.4 2.10185C16.0982 2.10972 16.7901 2.23407 17.446 2.46959C17.9459 2.652 18.3945 2.94857 18.755 3.33486C19.1155 3.6671 19.3971 4.0733 19.58 4.52461C19.8245 5.18323 19.951 5.87853 19.954 6.57964C20.009 7.66123 20.02 8.06142 20.02 10.906C20.02 13.7506 20.009 14.1508 19.954 15.2324ZM11 5.35744C9.88439 5.35958 8.79446 5.68681 7.86792 6.2978C6.94138 6.90878 6.21982 7.77609 5.7944 8.79015C5.36898 9.8042 5.2588 10.9195 5.47777 11.9951C5.69675 13.0707 6.23506 14.0583 7.02468 14.8332C7.81431 15.6081 8.81981 16.1355 9.91415 16.3487C11.0085 16.562 12.1425 16.4514 13.173 16.0312C14.2035 15.6109 15.0842 14.8997 15.7037 13.9875C16.3233 13.0753 16.654 12.0029 16.654 10.906C16.6555 10.176 16.5101 9.453 16.2264 8.77847C15.9426 8.10393 15.526 7.49121 15.0006 6.97556C14.4751 6.4599 13.8511 6.05147 13.1646 5.77378C12.478 5.49608 11.7424 5.35459 11 5.35744ZM11 14.5077C10.2755 14.5077 9.56732 14.2965 8.96495 13.9007C8.36257 13.505 7.89307 12.9424 7.61583 12.2843C7.33859 11.6262 7.26605 10.902 7.40738 10.2033C7.54872 9.50469 7.89759 8.86293 8.40987 8.35922C8.92215 7.85551 9.57483 7.51248 10.2854 7.37351C10.9959 7.23454 11.7324 7.30586 12.4018 7.57847C13.0711 7.85107 13.6432 8.31271 14.0457 8.90501C14.4482 9.4973 14.663 10.1937 14.663 10.906C14.663 11.379 14.5683 11.8473 14.3842 12.2843C14.2001 12.7213 13.9303 13.1183 13.5901 13.4528C13.25 13.7872 12.8462 14.0525 12.4018 14.2335C11.9574 14.4145 11.481 14.5077 11 14.5077Z" fill="#E83D81"/>
+                            </svg>
                         </a>
                     </li>
                 </ul>
@@ -491,7 +497,12 @@
         </div>
     </div>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/tabs.js"></script>
+    <script src="js/anchors.js"></script>
     <script src="js/mobile-menu.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/reviews-swiper.js"></script>

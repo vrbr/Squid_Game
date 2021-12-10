@@ -50,17 +50,50 @@
     .header__menu::before {
         width: 36px;
         box-shadow: 0 10px 0 0 #fff, 0 20px 0 0 #fff;
+        transition: all ease 0.5s;
+    }
+    .header__menu:hover::before {
+        background-color: #E83D81;
+        box-shadow: 0 10px 0 0 #E83D81, 0 20px 0 0 #E83D81;
+    }
+    .header__link {
+        position: relative;
+    }
+    .header__link::before {
+        position: absolute;
+        content: '';
+        transition: all ease 0.5s;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 15%;
+    }
+    .header__link:hover::before {
+        background: #fff;
+        animation: animate .5s linear forwards; 
+    }
+    @keyframes animate {
+        0% {
+            width: 0%;;
+        }
+        100% {
+            width: 70%;;
+        }
     }
 }
 
 @media (min-width: 1200px) {
-    .header__menu,
-    .header__link-order {
+    .header__menu {
         display: none;
     }
     .header__order {
         display: block;
-        padding: 10px 0 10px 30px;
+        padding: 10px 30px;
+        transition: all ease 0.5s;
+    }
+    .header__order:hover {
+        background: #fff;
+        color: #101010;
     }
     .header__nav {
         display: flex;

@@ -166,6 +166,10 @@
     }
     .mobile-menu__close::before, .mobile-menu__close::after {
         width: 40px;
+        transition: all ease 0.5s;
+    }
+    .mobile-menu__close:hover::before, .mobile-menu__close:hover::after {
+        background-color: #E83D81;
     }
     .mobile-menu__main {
         padding-top: 90px;
@@ -188,6 +192,20 @@
     }
     .mobile-menu__button {
         margin-right: 0;
+    }
+    .mobile-menu__social-fb svg {
+        width: 16px;
+        height: 24px;
+    }
+    .mobile-menu__social-insta svg {
+        width: 24px;
+        height: 24px;
+    }
+    .mobile-menu__social-link svg path {
+        transition: all ease 0.5s;
+    }
+    .mobile-menu__social-link:hover svg path {
+        fill: #fff;
     }
     /*modal*/
     .modal__cart {
@@ -215,6 +233,30 @@
         background-image: url("../../img/modal-tab@2x.jpg");
         width: 314px;
         height: 209px;
+    }
+    .mobile-menu__link {
+        position: relative;
+    }
+    .mobile-menu__link::before {
+        position: absolute;
+        content: '';
+        transition: all ease 0.5s;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+    }
+    .mobile-menu__link:hover::before {
+        background: #fff;
+        animation: animate .5s linear forwards; 
+    }
+    @keyframes animate {
+        0% {
+            width: 0%;;
+        }
+        100% {
+            width: 100%;;
+        }
     }
 }
 
