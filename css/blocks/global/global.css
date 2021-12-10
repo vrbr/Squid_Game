@@ -113,6 +113,7 @@ body {
         width: 209px;
         font-size: 16px;
         line-height: 19px;
+        transition: all ease 0.5s;
     }
     .button::after {
         filter: blur(1.5px) drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.4));
@@ -120,6 +121,17 @@ body {
         height: 61px;
         left: 6px;
         top: 6px;
+        transition: all ease 0.5s;
+    }
+    .button:hover {
+        width: 240px;
+        border-color: #fff;
+    }
+    .button:hover::after {
+        width: 238px;
+        top: 11px;
+        left: 20px;
+        border: 1px solid #E83D81;
     }
     .main-title {
         font-size: 36px;
