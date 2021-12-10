@@ -51,6 +51,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 10px 25px;
+    width: 156px;
     border: 3px solid #E83D81;
     font-weight: 500;
     font-size: 14px;
@@ -109,6 +110,7 @@ body {
     }
     .button {
         padding: 19px 44px;
+        width: 209px;
         font-size: 16px;
         line-height: 19px;
     }
@@ -144,6 +146,7 @@ body {
     }
     .button {
         padding: 22px 48px;
+        width: 230px;
         font-size: 18px;
         line-height: 21px;
     }
