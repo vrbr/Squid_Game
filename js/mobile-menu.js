@@ -1,7 +1,6 @@
 const menuOpen = document.querySelector('.header__menu');
 const menuClose = document.querySelector('.mobile-menu__close');
 const menu = document.querySelector('.mobile-menu');
-const html = document.querySelector('html');
 const scrollY = document.body.style.top;
 
 menuOpen.addEventListener('click', () => {
